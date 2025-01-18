@@ -1,0 +1,16 @@
+img{
+  width: 180px;
+  height: 150px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 50%;
+}
+table, th, td {
+  border-style: solid;
+  border: width 1px; ;
+  border-color: black;
+}
+th{
+  background-color: #cccccc;
+}

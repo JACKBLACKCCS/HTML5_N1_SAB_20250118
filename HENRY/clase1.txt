@@ -1,0 +1,235 @@
+USO GIT:
+
+Profe@DESKTOP-DME1HRR MINGW64 ~
+$ pwd
+/c/Users/Profe
+
+Profe@DESKTOP-DME1HRR MINGW64 ~
+$ cd ..
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/Users
+$ pwd
+/c/Users
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/Users
+$ cd ..
+
+Profe@DESKTOP-DME1HRR MINGW64 /c
+$ pwd
+/c
+
+Profe@DESKTOP-DME1HRR MINGW64 /c
+$ cd HTML5_N1_SAB_20250118/
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118
+$ git init
+Initialized empty Git repository in C:/HTML5_N1_SAB_20250118/.git/
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git add .
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git add .
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   HENRY/ejemplo01.html
+        new file:   JOHAN/ejemplo.01html
+        new file:   Luis/ejemplo01.html
+        new file:   MOISES/EJEMPLO01.html
+
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git add .
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   HENRY/ejemplo01.html
+        new file:   ISMAEL/ejemplo01.html
+        new file:   Luis/ejemplo01.html
+        new file:   MOISES/EJEMPLO01.html
+
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git add .
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   HENRY/ejemplo01.html
+        new file:   ISMAEL/ejemplo01.html
+        new file:   JOHAN/ejemplo.01.html
+        new file:   Luis/ejemplo01.html
+        new file:   MOISES/EJEMPLO01.html
+
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git commit -m "Versión inicial de archivos curso HTML5"
+[master (root-commit) 979d7a7] Versión inicial de archivos curso HTML5
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 HENRY/ejemplo01.html
+ create mode 100644 ISMAEL/ejemplo01.html
+ create mode 100644 JOHAN/ejemplo.01.html
+ create mode 100644 Luis/ejemplo01.html
+ create mode 100644 MOISES/EJEMPLO01.html
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ gi status
+bash: gi: command not found
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (master)
+$ git branch -M main
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (main)
+$ git remote add origin https://github.com/UnewebInstituto/HTML5_N1_SAB_20250118.git
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (main)
+$ git push -u origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 468 bytes | 234.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/UnewebInstituto/HTML5_N1_SAB_20250118.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (main)
+$ echo "# HTML5_N1_SAB_20250118" >> README.md
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (main)
+$ git add README.md
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (main)
+$ git commit -m "se carga archivo readme.md"
+[main 26712f5] se carga archivo readme.md
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (main)
+$ git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 302 bytes | 302.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/UnewebInstituto/HTML5_N1_SAB_20250118.git
+   979d7a7..26712f5  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Profe@DESKTOP-DME1HRR MINGW64 /c/HTML5_N1_SAB_20250118 (main)
+$
+
+Documentación
+https://developer.mozilla.org/en-US/
+https://www.w3schools.com/html/default.asp
+
+
+ETIQUETAS DE ENCABEZAZO
+<h1>..<h6>
+https://developer.mozilla.org/es/docs/Web/HTML/Element/Heading_Elements
+
+PÁRRAFO
+<p>
+https://developer.mozilla.org/es/docs/Web/HTML/Element/p
+
+TIPOGRAFÍA
+<i> Itálica o cursiva
+https://developer.mozilla.org/es/docs/Web/HTML/Element/i
+
+<b> Negrilla
+https://developer.mozilla.org/es/docs/Web/HTML/Element/b
+
+<u> Subrayado
+https://developer.mozilla.org/es/docs/Web/HTML/Element/u
+
+<s> Tachado
+https://developer.mozilla.org/es/docs/Web/HTML/Element/s
+
+<sup> Super índice
+https://developer.mozilla.org/es/docs/Web/HTML/Element/sup
+
+<sub> Sub índice
+https://developer.mozilla.org/es/docs/Web/HTML/Element/sub
+
+LISTAS
+LISTAS ORDENADAS
+https://developer.mozilla.org/es/docs/Web/HTML/Element/ol
+Los elementos de lista van enumerados.
+<ol>
+    <li>elemento de lista 1</li>
+    ...
+    <li>elemento de lista n</li>
+</ol>
+
+LISTAS NO ORDENADAS
+https://developer.mozilla.org/es/docs/Web/HTML/Element/ul
+Los elementos de lista van identificados con viñetas.
+<ul>
+    <li>elemento de lista 1</li>
+    ...
+    <li>elemento de lista n</li>
+</ul>
+
+TABLAS
+https://developer.mozilla.org/es/docs/Web/HTML/Element/table
+
+IMAGEN
+https://developer.mozilla.org/es/docs/Web/HTML/Element/img
+
+
+NOMBRES DE COLORES EN HTML
+https://htmlcolorcodes.com/es/nombres-de-los-colores/
+
+https://www.w3schools.com/colors/colors_picker.asp
+
+ANCLAS
+https://developer.mozilla.org/es/docs/Web/HTML/Element/a
+
+
+Tarea:
+Poner en practica los recursos de la clase 1 de HTML,
+para efectuar una sintesis curricular, que contenga
+las siguientes secciones:
+Datos Personales
+Formación Académica
+Experiencia Laboral
+Otras actividades.
